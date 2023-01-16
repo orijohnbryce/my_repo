@@ -28,8 +28,8 @@ function jerWeather() {
 
 function changeBG(){
     if (document.body.style.backgroundColor == "white"){
-        document.body.style.backgroundColor = "yellow"
-        document.cookie = "color=yellow"
+        document.body.style.backgroundColor = "red"
+        document.cookie = "color=red"
     }else {
         document.body.style.backgroundColor = "white"
         document.cookie = "color=white"
